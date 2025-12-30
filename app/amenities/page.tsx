@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 
 interface Amenity {
   Amenity_ID: string;
@@ -123,23 +122,6 @@ export default function AmenitiesPage() {
         </section>
       ))}
 
-      {/* CTA Section */}
-      <section className="py-24 md:py-32 bg-[#f5f0e8] border-t border-[#2a2520]/10">
-        <div className="container mx-auto px-6 lg:px-16 max-w-3xl text-center">
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 text-[#2a2520]/90">
-            Ready to stay?
-          </h2>
-          <p className="text-[#2a2520]/50 leading-relaxed mb-12 text-lg">
-            Five rooms in the medina. Each with its own character.
-          </p>
-          <Link
-            href="/rooms"
-            className="inline-block border border-[#2a2520]/20 px-12 py-4 text-xs tracking-[0.2em] uppercase hover:bg-[#2a2520] hover:text-[#f5f0e8] transition-colors"
-          >
-            View Rooms
-          </Link>
-        </div>
-      </section>
     </div>
   );
 }

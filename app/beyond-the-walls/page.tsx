@@ -134,23 +134,6 @@ export default function BeyondTheWallsPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 md:py-32 bg-[#f5f0e8]">
-        <div className="container mx-auto px-6 lg:px-16 max-w-3xl text-center">
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 text-[#2a2520]/90">
-            Or stay in the medina.
-          </h2>
-          <p className="text-[#2a2520]/50 leading-relaxed mb-12 text-lg">
-            The riad awaits in the heart of Marrakech.
-          </p>
-          <Link
-            href="/rooms"
-            className="inline-block border border-[#2a2520]/20 px-12 py-4 text-xs tracking-[0.2em] uppercase hover:bg-[#2a2520] hover:text-[#f5f0e8] transition-colors"
-          >
-            View Rooms
-          </Link>
-        </div>
-      </section>
     </div>
   );
 }
