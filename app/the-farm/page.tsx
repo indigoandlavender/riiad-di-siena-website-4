@@ -64,7 +64,7 @@ export default function TheFarmPage() {
             </p>
           )}
           <h1 className="text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light mb-8 text-white">
-            T H E  F A R M
+            T H E<br />F A R M
           </h1>
           {hero?.Subtitle && (
             <p className="text-xl md:text-2xl text-white/80 font-serif italic max-w-2xl mx-auto">
