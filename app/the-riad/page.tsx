@@ -45,13 +45,11 @@ export default function TheRiadPage() {
             Marrakech Medina
           </p>
           <h1 className="text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light mb-8 text-white">
-            T H E  H O U S E
+            T H E<br />H O U S E
           </h1>
-          {hero?.Title && (
-            <p className="text-xl md:text-2xl text-white/80 font-serif italic max-w-2xl mx-auto">
-              {hero.Title}
-            </p>
-          )}
+          <p className="text-xl md:text-2xl text-white/80 font-serif italic max-w-2xl mx-auto">
+            A 300-year-old sanctuary in the heart of the medina
+          </p>
         </div>
         
         {/* Scroll indicator */}
