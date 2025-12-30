@@ -68,8 +68,8 @@ export default function BeyondTheWallsPage() {
           <p className="text-xs tracking-[0.4em] uppercase text-white/60 mb-8">
             Riad di Siena
           </p>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl tracking-[0.15em] font-light mb-8 text-white">
-            B E Y O N D<br />T H E  W A L L S
+          <h1 className="text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light mb-8 text-white">
+            B E Y O N D  T H E  W A L L S
           </h1>
           {hero?.Subtitle && (
             <p className="text-xl md:text-2xl text-white/80 font-serif italic max-w-2xl mx-auto">

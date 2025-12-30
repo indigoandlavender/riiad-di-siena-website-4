@@ -58,7 +58,7 @@ export default function TheDesertCampPage() {
         {heroImage && (<><div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${heroImage}')` }} /><div className="absolute inset-0 bg-[#2a2520]/50" /></>)}
         <div className="container mx-auto px-6 lg:px-16 text-center max-w-4xl relative z-10">
           {hero?.Location && <p className="text-xs tracking-[0.4em] uppercase text-white/60 mb-8">{hero.Location}</p>}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl tracking-[0.15em] font-light mb-8 text-white">T H E<br />D E S E R T  C A M P</h1>
+          <h1 className="text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light mb-8 text-white">T H E  D E S E R T  C A M P</h1>
           {hero?.Subtitle && <p className="text-xl md:text-2xl text-white/80 font-serif italic max-w-2xl mx-auto">{hero.Subtitle}</p>}
         </div>
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2"><div className="w-[1px] h-16 bg-gradient-to-b from-white/0 via-white/30 to-white/0" /></div>

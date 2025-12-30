@@ -63,7 +63,7 @@ export default function TheFarmPage() {
               {hero.Location}
             </p>
           )}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl tracking-[0.15em] font-light mb-8 text-white">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light mb-8 text-white">
             T H E  F A R M
           </h1>
           {hero?.Subtitle && (

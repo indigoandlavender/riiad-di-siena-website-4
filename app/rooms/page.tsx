@@ -206,7 +206,7 @@ export default function RoomsPage() {
           <p className="text-xs tracking-[0.4em] uppercase text-white/60 mb-8">
             Riad di Siena
           </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl tracking-[0.15em] font-light mb-8 text-white">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light mb-8 text-white">
             R O O M S
           </h1>
           {hero?.Subtitle && (
